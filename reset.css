@@ -1,0 +1,95 @@
+/* Reset CSS */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove default padding */
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  padding: 0;
+}
+
+/* Set default font family and size */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Remove list styles (bullets, padding) */
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+/* Remove hyperlink styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove border outline on focused elements */
+:focus {
+  outline: 0;
+}
+
+/* Set maximum width to prevent overflow */
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+/* Responsive images */
+img {
+  height: auto;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* Clear floated elements */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

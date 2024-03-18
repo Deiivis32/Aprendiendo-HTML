@@ -1,0 +1,68 @@
+body{
+    background-color: aquamarine;
+}
+
+.title {
+    background-color: mediumslateblue;
+}
+
+h1  {
+    background-color: cornflowerblue;
+}
+
+h2  {
+    background-color:blueviolet;
+}
+
+span {
+    background-color: rgb(237, 100, 207);
+}
+
+h3  {
+    background-color: rgb(139, 237, 100);
+}
+
+.title  {
+    font-size: 40px;
+    color: coral;
+}
+
+.text  {
+    font-size: 30px;
+}   
+
+#principal  {
+    font-size: 4em;
+}   
+
+.Logo {
+    width: 200px;
+}   
+
+#Titulos {
+    border: 2px solid black ;
+    width: 65vw;
+    margin: auto;
+    padding: 2em;
+}   
+
+#Titulo1  {
+    font-size: 1em
+
+}
+
+.Card  {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 1em 0px 1em;
+    border-radius: 10%;
+    transition: 1s;
+   
+}
+.Card:hover  {
+    background-color: brown;
+}
+
+#CardConteiner {
+    background-color: darkgoldenrod     ;
+}
