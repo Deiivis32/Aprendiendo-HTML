@@ -39,7 +39,7 @@ h3  {
     width: 200px;
 }   
 
-#Titulos {
+#titulos {
     border: 2px solid black ;
     width: 65vw;
     margin: auto;
@@ -55,7 +55,7 @@ h3  {
     border: 2px solid black;
     width: fit-content;
     padding: 0px 1em 0px 1em;
-    border-radius: 10%;
+    border-radius: 8%;
     transition: 1s;
    
 }
