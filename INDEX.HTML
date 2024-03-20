@@ -1,112 +1,96 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>Mi pagina web</title>
-    </head>
-    <link rel="stylesheet" href="estilos.css">
+<head>
+    <title>Mi página web</title>
     <link rel="stylesheet" href="reset.css">
-        <body>       
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>       
+    <header>
+        <div id="titulos">
+            <h1 class="title" id="principal">Este es el titulo principal de mi pagina web</h1>     
+        </div>         
+    </header>    
+    <div id="spans">
+        <span>HOME</span>
+        <span>NOTICIAS</span>
+        <span>CLIMA</span>
+    </div>
 
-        <header>
-            <div id="titulos">
-            <h1 class="title" id="principal">Este es el titulo principal de mi pagina web</h1>
-            <span>HOME</span>
-            <span>NOTICIAS</span>
-            <span>CLIMA</span>     
-            </div>         
-           
-        <header>    
-
-            <main>
-                <div id="CardConteiner">
-                    <div class="Card"> 
-                        <img src="./Clima.jpg" class="Logo">
-                        <div class="TextOverlay">
-                            <p>Clima</p>
-                        </div>
-                    </div>
-                    <div class="Card">
-                        <img src="ramdon1.jpeg" class="Logo">
-                        <div class="TextOverlay">
-                            <p>Perro</p>
-                        </div>
-                    </div>
-                    <div class="Card">
-                        <img src="random2.png" class="Logo">
-                        <div class="TextOverlay">
-                            <p>Astronauta</p>
-                        </div>
-                    </div>
+    <main>
+        <div id="CardConteiner">
+            <div class="Card"> 
+                <img src="./Clima.jpg" class="Logo">
+                <div class="TextOverlay">
+                    <p>Clima</p>
                 </div>
+            </div>
+            <div class="Card">
+                <img src="ramdon1.jpeg" class="Logo">
+                <div class="TextOverlay">
+                    <p>Perro</p>
+                </div>
+            </div>
+            <div class="Card">
+                <img src="random2.png" class="Logo">
+                <div class="TextOverlay">
+                    <p>Astronauta</p>
+                </div>
+            </div>
+        </div>
 
-                
+        <section>
+            <article>
+                <div class="section">
+                    <h2 class="title">Este es el titulo de una seccion</h2>
+                </div>
+                <div class="news-container">
+                    <h3 class="news-title">Esta es la noticia n1</h3>
+                </div>
+                <div class="text-container">
+                    <p>La noticia es la siguiente y es muy importante</p>
+                    <p>Soy David, estoy cursando la carrera de full stack developer y estoy muy entusiasmado.</p>
+                </div>
+            </article>
 
-                <section>
-                    <article>
-    
-                <h2 class="title">Este es el titulo de una seccion</h2>
-                <h3 class="title">Esta es la noticia n1</h3>
-                        <div>
-                <p>La noticia es la siguiente y es muy importante</p>
-                <p>Soy David, estoy cursando la carrera de full stack developer y estoy muy entusiasmado.</p>
-                        </div>
+            <hr />
 
-                     </article>
-
-                   <hr />
-
-                     <article>      
-       
-                   <h3 class="title">Esta es la noticia n2</h3>
-                        <div>
-                   <p>este es un listado de cosas importantes para esta noticia.</p>
-                   <ol>
-                       <li>item1</li>
-                       <li>item2</li>
-                       <li>item3</li>
-                       </div>
-
-                    </article>  
-               <hr />
-
-                    <article>
-       
-                   </ol>
-                   <h3 class="title">Esta es la noticia n3</h3>
-                        <div>
-                   <p>Este listado de cosas importantes no estara ordenado</p>
-                   <ul>
-                       <li>este es un elemento</li>
-                       <li>este es un elemento adicional</li>
-                       <li>este es un elemento random</li>
-                   </ul>
-                       </div>
-
-                    </article>
-                   <hr />
-
-                </section>
-
-             </main>
-
-               
-            <footer>
-               
+            <article>      
+                <h3 class="title">Esta es la noticia n2</h3>
                 <div>
-
-                <p>Este es el footer de mi pagina, ahora voy agregar unos enlaces.</p>
-                <div class="Formulario  ">
-                <a href="./CONTACTO.HTML">Formulario de contacto</a>   
+                    <p>este es un listado de cosas importantes para esta noticia.</p>
+                    <ol>
+                        <li>item1</li>
+                        <li>item2</li>
+                        <li>item3</li>
+                    </ol>
                 </div>
-                <p>BY DAVID DOMINGUEZ</p>
+            </article>  
+            <hr />
 
-                 </div>
+            <article>   
+                <h3 class="title">Esta es la noticia n3</h3>
+                <div>
+                    <p>Este listado de cosas importantes no estara ordenado</p>
+                    <ul>
+                        <li>este es un elemento</li>
+                        <li>este es un elemento adicional</li>
+                        <li>este es un elemento random</li>
+                    </ul>
+                </div>
+            </article>
+            <hr />
+        </section>
+    </main>
 
-            </footer>
-
-         
-
-
-    </body>
-
+    <footer>       
+        <div>
+            <p>Este es el footer de mi pagina, ahora voy agregar unos enlaces.</p>
+            <div class="Formulario">
+                <a href="./CONTACTO.HTML">Formulario de contacto</a>   
+            </div>
+            <p>BY DAVID DOMINGUEZ</p>
+        </div>
+    </footer>
+</body>
 </html>
